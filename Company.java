@@ -19,4 +19,12 @@ import java.util.List;
         if (employeeList == null) employeeList = new LinkedList<>();
         this.employeeList.add(employee);
     }
+<<<<<<< HEAD
+=======
+	
+     public void removeEmployee(Person employee) {
+        if (employeeList != null) this.employeeList.remove(employee);
+		employee.setCompany(null);
+	}
+>>>>>>> 4eed71a... person1 data updated, removeEmployee method fixed
 }
